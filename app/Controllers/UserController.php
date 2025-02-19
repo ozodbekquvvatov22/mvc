@@ -12,6 +12,7 @@ class UserController extends Controller
     {
         $this->view('auth/register');
     }
+    
     public function login()
     {
 
