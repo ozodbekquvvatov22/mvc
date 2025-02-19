@@ -5,6 +5,7 @@
     <label>Email:</label>
     <input type="email" name="email" required>
     
+    
     <label>Parol:</label>
     <input type="password" name="password" required>
     <a href="/auth/login">Login</a>
