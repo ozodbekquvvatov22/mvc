@@ -3,4 +3,5 @@
     <input type="password" name="password" placeholder="Parolingizni kiriting" required>
         <a href="/auth/register">Register</a>
     <button type="submit">Login</button>
+
 </form>
