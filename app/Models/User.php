@@ -14,6 +14,7 @@ class User
         return $stmt->fetchColumn() > 0;
     }
 
+    
     public function create($name, $email, $password)
     {
         $sql = "INSERT INTO users (name, email, password) VALUES (:name, :email, :password)";
