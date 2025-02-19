@@ -15,6 +15,7 @@ class Router
 
         $protectedRoutes = ['/post/index', '/post/create', '/post/edit', '/post/delete', '/post/show','/post/update','/post/show','/auth/logout'];
 
+            
         $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH); 
         
         if (in_array($requestPath, $protectedRoutes) && !isset($_SESSION['user_id'])) {
